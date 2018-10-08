@@ -1,4 +1,4 @@
 package tasks.programowanieObiektowe;
 
-public class Test {
+public class Activities1 {
 }
