@@ -22,7 +22,7 @@ public class EmailGenerator {
             String name = reader.next();
             System.out.println("Enter employee name: ");
             String surname = reader.next();
-            employeePersonalData.add(new Employee(name, surname,generateEmailAdress(name, surname) ));
+            employeePersonalData.add(new Employee(name.toLowerCase(), surname.toLowerCase(),generateEmailAdress(name.toLowerCase(), surname.toLowerCase()) ));
             printOutAllEmployees();
             System.out.println("Add another email? Y/N");
             String toContinue = reader.next();
