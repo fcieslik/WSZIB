@@ -24,16 +24,16 @@ public class GameController {
 
     public void startGame() {
         startGameButton.setDisable(true);
-        setGrids();
+        setGameGrids();
     }
 
-   public void setGrids() {
-        GameField[][] playerBoard = player.setBoard();
+   public void setGameGrids() {
         GameField[][] computerBoard = computer.setBoard();
-        for(int x = 0; x < 20; x++) {
-            for(int y = 0; y < 20; y++) {
-                playerGrid.add(playerBoard[x][y], x, y);
-                oponentGrid.add(computerBoard[x][y], x, y);
+        GameField[][] playerBoard = player.setBoard();
+        for(int i = 0; i < 20; i++) {
+            for(int j = 0; j < 20; j++) {
+                oponentGrid.add(computerBoard[i][j], i, j);
+                playerGrid.add(playerBoard[i][j], i, j);
             }
         }
     }

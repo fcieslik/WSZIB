@@ -11,8 +11,8 @@ public class SeaBattleApp extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("seaBattleGame.fxml"));
-        primaryStage.setTitle("Ultimate Sea Battle Game!");
         primaryStage.setScene(new Scene(root, 1400, 800));
+        primaryStage.setTitle("Ultimate Sea Battle Game!");
         primaryStage.show();
     }
 

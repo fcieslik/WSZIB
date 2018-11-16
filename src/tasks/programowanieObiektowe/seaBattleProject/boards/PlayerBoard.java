@@ -4,14 +4,13 @@ import javafx.scene.input.MouseButton;
 import javafx.scene.input.MouseEvent;
 
 public class PlayerBoard extends GameBoard{
-    private int shipNumber = 0;
+    private int currentShips = 0;
 
     public GameField[][] setBoard() {
-
-        for(int i = 0; i < 20; i++) {
-            for(int j = 0; j < 19; j++) {
-                gameBoard[i][j] = new GameField();
-                gameBoard[i][j].addEventHandler(MouseEvent.MOUSE_CLICKED, event -> {
+        for(int x = 0; x < 20; x++) {
+            for(int y = 0; y < 19; y++) {
+                gameBoard[x][y] = new GameField();
+                gameBoard[x][y].addEventHandler(MouseEvent.MOUSE_CLICKED, event -> {
                     if (event.getButton() == MouseButton.PRIMARY) {
                         addShipVerticallyToBoard((GameField)event.getSource());
                     } else if(event.getButton() == MouseButton.SECONDARY) {
@@ -25,29 +24,31 @@ public class PlayerBoard extends GameBoard{
 
     private void addShipHorizontallyToBoard(GameField source) {
         GameField field;
-        for (int i = 0; i < availableShips.size(); i++) {
-            field = gameBoard[source.getxAsis() + i][source.getxAsis()];
+
+        for (int x = 0; x < availableShips.size(); x++) {
+            field = gameBoard[source.getxAsis() + x][source.getxAsis()];
             field.setDisable(true);
             field.setStyle("-fx-background-color: Red;");
-
         }
-        if (shipNumber == 9) {
+
+        if (currentShips == 9) {
             super.deactivateBoard();
         }
-        shipNumber++;
+        currentShips++;
     }
 
     private void addShipVerticallyToBoard(GameField source) {
         GameField field;
-        for (int i = 0; i < availableShips.size(); i++) {
-            field = gameBoard[source.getxAsis()][source.getyAsis() + i];
+
+        for (int x = 0; x < availableShips.size(); x++) {
+            field = gameBoard[source.getxAsis()][source.getyAsis() + x];
             field.setDisable(true);
             field.setStyle("-fx-background-color: Red;");
-
         }
-        if (shipNumber == 9) {
+
+        if (currentShips == 9) {
             super.deactivateBoard();
         }
-        shipNumber++;
+        currentShips++;
     }
 }
