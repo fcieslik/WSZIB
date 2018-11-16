@@ -1,0 +1,23 @@
+package tasks.programowanieObiektowe.seaBattleProject;
+
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+
+public class SeaBattleApp extends Application {
+
+    @Override
+    public void start(Stage primaryStage) throws Exception{
+        Parent root = FXMLLoader.load(getClass().getResource("seaBattleGame.fxml"));
+        primaryStage.setTitle("Ultimate Sea Battle Game!");
+        primaryStage.setScene(new Scene(root, 1400, 800));
+        primaryStage.show();
+    }
+
+
+    public static void main(String[] args) {
+        launch(args);
+    }
+}
