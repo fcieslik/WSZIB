@@ -1,6 +1,6 @@
-package tasks.programowanieObiektowe.kataBankOcr;
+package tasks.programowanieObiektowe.kataBankTask;
 
-import tasks.programowanieObiektowe.kataBankOcr.exceptions.IllegalNumberException;
+import tasks.programowanieObiektowe.kataBankTask.exceptions.IllegalNumberException;
 
 import java.util.Arrays;
 

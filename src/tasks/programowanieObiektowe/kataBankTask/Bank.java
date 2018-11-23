@@ -1,8 +1,8 @@
-package tasks.programowanieObiektowe.kataBankOcr;
+package tasks.programowanieObiektowe.kataBankTask;
 
-import tasks.programowanieObiektowe.kataBankOcr.exceptions.IllegalNumberException;
-import tasks.programowanieObiektowe.kataBankOcr.exceptions.BankException;
-import tasks.programowanieObiektowe.kataBankOcr.models.AccountNumber;
+import tasks.programowanieObiektowe.kataBankTask.exceptions.IllegalNumberException;
+import tasks.programowanieObiektowe.kataBankTask.exceptions.BankException;
+import tasks.programowanieObiektowe.kataBankTask.models.AccountNumber;
 
 import java.io.File;
 import java.io.IOException;

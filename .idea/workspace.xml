@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90c58432-9696-4497-b7f5-46c43488223d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tasks/programowanieObiektowe/kataBankOcr/AccountParser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tasks/programowanieObiektowe/kataBankOcr/Bank.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tasks/programowanieObiektowe/kataBankOcr/exceptions/BankException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tasks/programowanieObiektowe/kataBankOcr/exceptions/IllegalNumberException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tasks/programowanieObiektowe/kataBankOcr/models/AccountNumber.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tasks/programowanieObiektowe/kataBankOcr/AccountParser.java" afterPath="$PROJECT_DIR$/src/tasks/programowanieObiektowe/kataBankTask/AccountParser.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tasks/programowanieObiektowe/kataBankOcr/Bank.java" afterPath="$PROJECT_DIR$/src/tasks/programowanieObiektowe/kataBankTask/Bank.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tasks/programowanieObiektowe/kataBankOcr/exceptions/BankException.java" afterPath="$PROJECT_DIR$/src/tasks/programowanieObiektowe/kataBankTask/exceptions/BankException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tasks/programowanieObiektowe/kataBankOcr/exceptions/IllegalNumberException.java" afterPath="$PROJECT_DIR$/src/tasks/programowanieObiektowe/kataBankTask/exceptions/IllegalNumberException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tasks/programowanieObiektowe/kataBankOcr/models/AccountNumber.java" afterPath="$PROJECT_DIR$/src/tasks/programowanieObiektowe/kataBankTask/models/AccountNumber.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,65 +19,65 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="AccountNumber.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tasks/programowanieObiektowe/kataBankOcr/models/AccountNumber.java">
+        <entry file="file://$PROJECT_DIR$/src/tasks/programowanieObiektowe/kataBankTask/models/AccountNumber.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
               <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
               <folding>
-                <element signature="e#183#184#0" expanded="true" />
-                <element signature="e#241#242#0" expanded="true" />
-                <element signature="e#1090#1091#0" expanded="true" />
-                <element signature="e#1145#1146#0" expanded="true" />
-                <element signature="e#1179#1180#0" expanded="true" />
-                <element signature="e#1237#1238#0" expanded="true" />
+                <element signature="e#184#185#0" expanded="true" />
+                <element signature="e#242#243#0" expanded="true" />
+                <element signature="e#1091#1092#0" expanded="true" />
+                <element signature="e#1146#1147#0" expanded="true" />
+                <element signature="e#1180#1181#0" expanded="true" />
+                <element signature="e#1238#1239#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="IllegalNumberException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tasks/programowanieObiektowe/kataBankOcr/exceptions/IllegalNumberException.java">
+        <entry file="file://$PROJECT_DIR$/src/tasks/programowanieObiektowe/kataBankTask/exceptions/IllegalNumberException.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
               <folding>
-                <element signature="e#169#170#0" expanded="true" />
-                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#170#171#0" expanded="true" />
+                <element signature="e#247#248#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Bank.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/tasks/programowanieObiektowe/kataBankOcr/Bank.java">
+        <entry file="file://$PROJECT_DIR$/src/tasks/programowanieObiektowe/kataBankTask/Bank.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
               <folding>
-                <element signature="e#626#641#0" expanded="true" />
-                <element signature="e#2436#2444#0" expanded="true" />
+                <element signature="e#630#645#0" expanded="true" />
+                <element signature="e#2440#2448#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="BankException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tasks/programowanieObiektowe/kataBankOcr/exceptions/BankException.java">
+        <entry file="file://$PROJECT_DIR$/src/tasks/programowanieObiektowe/kataBankTask/exceptions/BankException.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
               <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="48" />
               <folding>
-                <element signature="e#192#193#0" expanded="true" />
-                <element signature="e#259#260#0" expanded="true" />
-                <element signature="e#308#309#0" expanded="true" />
-                <element signature="e#340#341#0" expanded="true" />
+                <element signature="e#193#194#0" expanded="true" />
+                <element signature="e#260#261#0" expanded="true" />
+                <element signature="e#309#310#0" expanded="true" />
+                <element signature="e#341#342#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="AccountParser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tasks/programowanieObiektowe/kataBankOcr/AccountParser.java">
+        <entry file="file://$PROJECT_DIR$/src/tasks/programowanieObiektowe/kataBankTask/AccountParser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-615">
               <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
@@ -137,6 +136,7 @@
         <option value="$PROJECT_DIR$/src/tasks/programowanieObiektowe/kataBankOcr/models/AccountNumber.java" />
         <option value="$PROJECT_DIR$/src/tasks/programowanieObiektowe/kataBankOcr/AccountParser.java" />
         <option value="$PROJECT_DIR$/src/tasks/programowanieObiektowe/kataBankOcr/Bank.java" />
+        <option value="$PROJECT_DIR$/src/tasks/programowanieObiektowe/kataBankTask/Bank.java" />
       </list>
     </option>
   </component>
@@ -194,7 +194,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="tasks" type="462c0819:PsiDirectoryNode" />
               <item name="programowanieObiektowe" type="462c0819:PsiDirectoryNode" />
-              <item name="kataBankOcr" type="462c0819:PsiDirectoryNode" />
+              <item name="kataBankTask" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Wszib_Tasks" type="b2602c69:ProjectViewProjectNode" />
@@ -202,7 +202,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="tasks" type="462c0819:PsiDirectoryNode" />
               <item name="programowanieObiektowe" type="462c0819:PsiDirectoryNode" />
-              <item name="kataBankOcr" type="462c0819:PsiDirectoryNode" />
+              <item name="kataBankTask" type="462c0819:PsiDirectoryNode" />
               <item name="exceptions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -211,7 +211,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="tasks" type="462c0819:PsiDirectoryNode" />
               <item name="programowanieObiektowe" type="462c0819:PsiDirectoryNode" />
-              <item name="kataBankOcr" type="462c0819:PsiDirectoryNode" />
+              <item name="kataBankTask" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -716,46 +716,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tasks/programowanieObiektowe/kataBankOcr/exceptions/BankException.java">
+    <entry file="file://$PROJECT_DIR$/src/tasks/programowanieObiektowe/kataBankTask/exceptions/BankException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="48" />
           <folding>
-            <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tasks/programowanieObiektowe/kataBankOcr/exceptions/IllegalNumberException.java">
+    <entry file="file://$PROJECT_DIR$/src/tasks/programowanieObiektowe/kataBankTask/exceptions/IllegalNumberException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
           <folding>
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tasks/programowanieObiektowe/kataBankOcr/models/AccountNumber.java">
+    <entry file="file://$PROJECT_DIR$/src/tasks/programowanieObiektowe/kataBankTask/models/AccountNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
           <folding>
-            <element signature="e#183#184#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#1090#1091#0" expanded="true" />
-            <element signature="e#1145#1146#0" expanded="true" />
-            <element signature="e#1179#1180#0" expanded="true" />
-            <element signature="e#1237#1238#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#1091#1092#0" expanded="true" />
+            <element signature="e#1146#1147#0" expanded="true" />
+            <element signature="e#1180#1181#0" expanded="true" />
+            <element signature="e#1238#1239#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tasks/programowanieObiektowe/kataBankOcr/AccountParser.java">
+    <entry file="file://$PROJECT_DIR$/src/tasks/programowanieObiektowe/kataBankTask/AccountParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-615">
           <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
@@ -765,13 +765,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tasks/programowanieObiektowe/kataBankOcr/Bank.java">
+    <entry file="file://$PROJECT_DIR$/src/tasks/programowanieObiektowe/kataBankTask/Bank.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
           <folding>
-            <element signature="e#626#641#0" expanded="true" />
-            <element signature="e#2436#2444#0" expanded="true" />
+            <element signature="e#630#645#0" expanded="true" />
+            <element signature="e#2440#2448#0" expanded="true" />
           </folding>
         </state>
       </provider>

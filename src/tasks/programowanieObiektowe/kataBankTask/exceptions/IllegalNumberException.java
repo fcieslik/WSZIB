@@ -1,4 +1,4 @@
-package tasks.programowanieObiektowe.kataBankOcr.exceptions;
+package tasks.programowanieObiektowe.kataBankTask.exceptions;
 
 public class IllegalNumberException extends Exception {
 

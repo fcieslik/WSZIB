@@ -1,4 +1,4 @@
-package tasks.programowanieObiektowe.kataBankOcr.models;
+package tasks.programowanieObiektowe.kataBankTask.models;
 
 public class AccountNumber {
     private final String accountNumberToVerify;
